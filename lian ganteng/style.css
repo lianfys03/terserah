@@ -1,0 +1,72 @@
+*,
+html {
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.container {
+    height: 100vh;
+}
+
+.container-navbar {
+    background-color: #333
+   
+    
+}
+
+.ul-navbar {
+
+    background-color: rgb(48, 47, 47); 
+    height: 200px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.li-navbar { 
+    margin: 40px;
+    color:rgb(233, 47, 47);
+    padding: 40px;
+    
+}
+
+.li-navbar:hover {
+    background-color: rgb(112, 107, 109);
+    height: 20px;
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius: 8px;
+
+}
+
+.a-navbar {
+    color: rgb(249, 252, 255);
+    fount-size: 30px;
+    ;text-decoration: none;
+}
+
+.container-content {
+    background-color: rgba(161, 161, 173, 0.856);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.a-content {
+    background-color: rgba(206, 180, 201, 0.897);
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    width: 720px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}   
